@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\idiva\OneDrive\Рабочий стол\git\otus-homework\hw2\hello_world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\idiva\OneDrive\Рабочий стол\git\otus-homework\hw2\example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\idiva\OneDrive\Рабочий стол\git\otus-homework\hw2\move_me_out.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\idiva\OneDrive\Рабочий стол\git\otus-homework\hw2\example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\idiva\OneDrive\Рабочий стол\git\otus-homework\hw2\move_me_out.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\idiva\OneDrive\Рабочий стол\git\otus-homework\hw2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2924EA43-F16A-36A0-94B6-5454EA81B22D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3B1E0321-2081-3841-B4AE-0045DAC047DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\IDIVA\ONEDRIVE\РАБОЧИЙ СТОЛ\GIT\OTUS-HOMEWORK\HW2\BUILD\CMAKEFILES\722225CF496DFA59216706194A7B1080\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/idiva/OneDrive/Рабочий стол/git/otus-homework/hw2" "-BC:/Users/idiva/OneDrive/Рабочий стол/git/otus-homework/hw2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/idiva/OneDrive/Рабочий стол/git/otus-homework/hw2/build/01.hello_world.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
