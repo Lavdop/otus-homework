@@ -1,0 +1,3 @@
+C:/Users/idiva/OneDrive/Рабочий стол/пше/otus-homework/build/CMakeFiles/hello_world.dir
+C:/Users/idiva/OneDrive/Рабочий стол/пше/otus-homework/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/idiva/OneDrive/Рабочий стол/пше/otus-homework/build/CMakeFiles/ZERO_CHECK.dir
