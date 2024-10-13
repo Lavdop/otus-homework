@@ -11,6 +11,10 @@ int game(int n){
             std::cout<<"greater then "<<k<<std::endl;
         }else if (k > n){
             std::cout<<"less then "<<k<<std::endl;
-        }else{return count;}
+        }else{
+            std::cout<<"You win!"<<std::endl;
+            return count;
+            
+            }
     }
 };
