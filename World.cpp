@@ -58,8 +58,15 @@ World::World(const std::string& worldFilePath) {
         // указывает, требуется ли обрабатывать пересечение
         // шаров как столкновение. Если true - требуется.
         // В базовой части задания этот параметр
-        stream >> std::boolalpha >> isCollidable;
 
+        stream >> std::boolalpha >> isCollidable;
+        Point center {x,y};
+        Velocity velocity;
+        Point vec{vx,vy};
+        velocity.setVector(vec);
+        Color color(red,green,blue);
+        Ball ball(velocity,center,radius,color);
+        balls.push_back(ball);
         // TODO: место для доработки.
         // Здесь не хватает самого главного - создания
         // объекта класса Ball со свойствами, прочитанными

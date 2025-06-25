@@ -5,6 +5,8 @@
 
 class Ball {
 public:
+    Ball() = default;
+    Ball(Velocity& velocity,Point& cente,double radius,Color& color);
     void setVelocity(const Velocity& velocity);
     Velocity getVelocity() const;
     void draw(Painter& painter) const;
@@ -12,4 +14,9 @@ public:
     Point getCenter() const;
     double getRadius() const;
     double getMass() const;
+private:
+    Point cen;
+    Velocity vel;
+    Color col;
+    double rad;
 };
